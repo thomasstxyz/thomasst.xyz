@@ -1,3 +1,4 @@
 # baseURL = 'http://thomasst.xyz/'
 languageCode = 'en-us'
 title = 'thomasst.xyz'
+theme = 'hugo-serif-theme'
