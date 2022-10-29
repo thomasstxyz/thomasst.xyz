@@ -1,12 +1,11 @@
 ---
 title: 'Homepage'
-meta_title: 'Hugo Serif Theme'
-description: "Serif is a modern business theme for Hugo."
+meta_title: 'Homepage - thomasst.xyz'
+description: "Website of Thomas Stadler."
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Serif - A Hugo Business Theme.
-
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Hi, I'm Thomas.
+Welcome to my personal website!
