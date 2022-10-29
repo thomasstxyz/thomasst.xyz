@@ -32,7 +32,7 @@ title = "thomasst.xyz"
     base = "Source Sans Pro"
 
   [params.colors]
-    primary = "#f24088"
+    primary = "#326ce5"
     black = "#2f2f41"
     white = "#ffffff"
     white_offset = "#f6f7ff"
