@@ -1,3 +1,10 @@
+# Ignore build folder
+public
+resources/_gen/
 .DS_Store
+tmp
 
-public/
+# IDE files
+.idea/
+.vscode/
+*.iml
