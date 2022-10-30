@@ -8,5 +8,10 @@
         "name": "Twitter",
         "link": "https://twitter.com/thomasstxyz",
         "image": "images/social/twitter.svg"
+    },
+    {
+        "name": "LinkedIn",
+        "link": "https://linkedin.com/in/thomasstxyz",
+        "image": "images/social/linkedin.svg"
     }
 ]

@@ -1,4 +1,4 @@
 ---
-title: 'Resources'
+title: 'Blog'
 menu: main
 ---

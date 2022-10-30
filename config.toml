@@ -15,7 +15,7 @@ title = "thomasst.xyz"
   google_tag_manager_id = ""
 
   [params.homepage]
-    show_contact_box = true      # show / hide the contaxt box on the homepage
+    show_contact_box = false      # show / hide the contaxt box on the homepage
     show_services_button = false # show / hide the "view all services" button
 
   [params.logo]
@@ -54,21 +54,6 @@ title = "thomasst.xyz"
 
 [menu]
   # Main Menu
-  [[menu.main]]
-    name = "Services"
-    url = "/services/"
-    weight = 1
-
-  [[menu.main]]
-    name = "Team"
-    url = "/team/"
-    weight = 2
-
-  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 3
-
   [[menu.main]]
     name = "Contact"
     url = "/contact/"

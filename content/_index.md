@@ -2,10 +2,10 @@
 title: 'Homepage'
 meta_title: 'Homepage - thomasst.xyz'
 description: "Website of Thomas Stadler."
-intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
+# intro_image: "images/illustrations/pointing.svg"
+# intro_image_absolute: true
+# intro_image_hide_on_mobile: true
 ---
 
 Hi, I'm Thomas.
-Welcome to my personal website!
+Welcome to my personal website {{< siteurl >}}
