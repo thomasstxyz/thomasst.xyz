@@ -9,4 +9,4 @@ I'm Thomas Stadler. I'm an advocate for cloud-native & open-source software and 
 
 Besides that, I like to produce and consume 🎵 good music and 🍕 food.
 
-I also practice 🤼 Jiu-Jitsu sport in our local union.
+I also practice 🤼 Jiu-Jitsu in our local union.
