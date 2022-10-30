@@ -8,4 +8,4 @@ description: "Website of Thomas Stadler."
 ---
 
 Hi, I'm Thomas.
-Welcome to my personal website {{< siteurl >}}
+Welcome to my personal website!
