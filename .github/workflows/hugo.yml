@@ -68,3 +68,16 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+
+
+      - uses: actions/checkout@v3
+        name: Checkout repository
+
+      - uses: pmorelli92/github-container-registry-build-push@2.0.0
+        name: Build and Publish latest container image
+        with:
+          github-push-secret: ${{ secrets.GITHUB_TOKEN }}
+          docker-image-name: www-thomasstxyz
+          docker-image-tag: latest # optional
+          dockerfile-path: ./Dockerfile # optional
+          build-context: ./ # optional
