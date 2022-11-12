@@ -6,6 +6,8 @@ WORKDIR /app
 RUN hugo build
 
 
-FROM nginx
+FROM nginx:alpine
+
+EXPOSE 80
 
 COPY --from=build /app/public/ /usr/share/nginx/html
