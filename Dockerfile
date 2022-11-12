@@ -8,4 +8,4 @@ RUN hugo build
 
 FROM nginx
 
-COPY --from=build /app/public/ /var/www/html
+COPY --from=build /app/public/ /usr/share/nginx/html
