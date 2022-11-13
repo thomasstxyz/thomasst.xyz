@@ -12,4 +12,7 @@ EXPOSE 80
 
 COPY --from=build /app/public/ /usr/share/nginx/html/
 
-CMD [ "nginx", "-g", "daemon", "off", ";" ]
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
+CMD ["nginx", "-g", "daemon off;"]
