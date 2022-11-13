@@ -76,14 +76,14 @@ jobs:
     permissions:
       packages: write
     steps:
-      - uses: actions/checkout@v3
-        name: Checkout repository
-
-      - uses: pmorelli92/github-container-registry-build-push@2.0.0
-        name: Build and Publish latest container image
+      - name: login to GitHub Container Registry
+        uses: docker/login-action@v1
         with:
-          github-push-secret: ${{ secrets.GITHUB_TOKEN }}
-          docker-image-name: www-thomasstxyz
-          docker-image-tag: latest # optional
-          dockerfile-path: ./Dockerfile # optional
-          build-context: ./ # optional
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v2
+      - name: create image from repository
+        run: docker build -t ghcr.io/${{ github.actor }}/www-thomasstxyz .
+      - name: push image to GitHub Container Registry
+        run: docker push ghcr.io/${{ github.actor }}/www-thomasstxyz:latest
