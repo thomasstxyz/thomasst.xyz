@@ -6,8 +6,10 @@ WORKDIR /app
 RUN hugo build
 
 
-FROM nginx:alpine
+FROM sebp/lighttpd
 
 EXPOSE 80
 
-COPY --from=build /app/public/ /usr/share/nginx/html
+RUN rm -rf /var/www/localhost/htdocs/*
+
+COPY --from=build /app/public/ /var/www/localhost/htdocs
