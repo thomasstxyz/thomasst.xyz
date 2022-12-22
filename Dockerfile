@@ -6,13 +6,12 @@ WORKDIR /app
 RUN hugo build
 
 
-FROM nginx
+FROM busybox:1.35
 
-EXPOSE 80
+RUN adduser -D static
+USER static
+WORKDIR /home/static
 
-COPY --from=build /app/public/ /usr/share/nginx/html/
+COPY --from=build /app/public/ .
 
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["busybox", "httpd", "-f", "-v", "-p", "3000"]
