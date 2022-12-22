@@ -3,6 +3,7 @@ name: Tag, Build and Push Container Image to ghcr.io
 on:
   push:
     tags: [ "*" ]
+    branches: [ "main" ]
 
 env:
   REGISTRY: ghcr.io
