@@ -1,4 +1,4 @@
-name: Tag, Build and Push Container Image to ghcr.io
+name: Push Container Image
 
 on:
   push:
