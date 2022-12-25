@@ -52,20 +52,18 @@ title = "thomasst.xyz"
   [params.footer]
     copyright_text = 'Powered by <a class="zerostatic" href="https://gohugo.io/">Hugo</a>'
 
-[menu]
+# [menu]
   # Main Menu
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 4
+
+  # [[menu.main]]
+  #   name = "Contact"
+  #   url = "/contact/"
+  #   weight = 4
 
   # Footer Menu
-  [[menu.footer]]
-    name = "Home"
-    url = "/"
-    weight = 1
 
-  [[menu.footer]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 2
+  # [[menu.footer]]
+  #   name = "Home"
+  #   url = "/"
+  #   weight = 1
+

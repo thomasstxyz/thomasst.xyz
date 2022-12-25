@@ -1,4 +1,7 @@
 ---
 title: 'Resources'
-menu: main
+menu: 
+- main
+- footer
+weight: 25
 ---

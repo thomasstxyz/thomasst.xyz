@@ -1,4 +1,7 @@
 ---
 title: 'Blog'
-menu: main
+menu: 
+- main
+- footer
+weight: 20
 ---
