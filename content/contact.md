@@ -9,4 +9,3 @@ weight: 15
 ---
 
 Use my [public PGP key](/resources/public-crypto-keys/pgp.txt) to encrypt your email message!
-
