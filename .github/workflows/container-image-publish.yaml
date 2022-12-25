@@ -19,13 +19,17 @@ jobs:
         with:
           submodules: true
 
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%s')"
+
       # https://github.com/marketplace/actions/push-to-ghcr
       - name: Build and publish a Docker image for ${{ github.repository }}
         uses: macbre/push-to-ghcr@master
         with:
           image_name: ${{ github.repository }}  # it will be lowercased internally
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          image_tag: "latest-$(date +%s)"
+          image_tag: "latest-${{ steps.date.outputs.date }}"
           # optionally push to the Docker Hub (docker.io)
           # docker_io_token: ${{ secrets.DOCKER_IO_ACCESS_TOKEN }}  # see https://hub.docker.com/settings/security
           # customize the username to be used when pushing to the Docker Hub
