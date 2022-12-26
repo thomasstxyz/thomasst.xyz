@@ -10,6 +10,6 @@ weight: 10
 
 I'm Thomas Stadler. I'm an advocate for cloud-native & open-source software and its community consisting of great people.
 
-Besides that, I like to produce and consume 🎵 good music and 🍕 food.
+Besides that, I like to produce and consume good 🎵 music and 🍕 food.
 
 I also practice 🤼 Jiu-Jitsu in our local union.
