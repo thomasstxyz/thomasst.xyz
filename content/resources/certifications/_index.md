@@ -6,4 +6,6 @@ title: 'Certifications'
 
 [GitOps certified for Argo - GitOps at Scale (2022)](/resources/certifications/certificate-gitops-at-scale-2022-63242d42bf43907ba64a1709.pdf)
 
-[Scrum - Grundlagen](/resources/certifications/CertificateOfCompletion_Scrum_Grundlagen_PMI.pdf)
+[Scrum - Grundlagen - LinkedIn Learning](/resources/certifications/CertificateOfCompletion_Scrum_Grundlagen_PMI.pdf)
+
+[Scrum Master Grundlagen - LinkedIn Learning](/resources/certifications/CertificateOfCompletion_ScrumGrundlagen_Der_Scrum_Master.pdf)
