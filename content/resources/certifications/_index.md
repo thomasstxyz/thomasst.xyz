@@ -9,3 +9,5 @@ title: 'Certifications'
 [Scrum - Grundlagen - LinkedIn Learning](/resources/certifications/CertificateOfCompletion_Scrum_Grundlagen_PMI.pdf)
 
 [Scrum Master Grundlagen - LinkedIn Learning](/resources/certifications/CertificateOfCompletion_ScrumGrundlagen_Der_Scrum_Master.pdf)
+
+[Scrum Product Owner Grundlagen - LinkedIn Learning](/resources/certifications/CertificateOfCompletion_ScrumGrundlagen_Der_Product_Owner_PMI.pdf)
