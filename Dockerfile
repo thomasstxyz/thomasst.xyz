@@ -1,4 +1,4 @@
-FROM klakegg/hugo:0.107.0-ext-alpine-ci as build
+FROM klakegg/hugo:0.111.3-ext-alpine-ci as build
 
 COPY . /app
 WORKDIR /app
