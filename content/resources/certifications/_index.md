@@ -1,6 +1,8 @@
 ---
 title: 'Certifications'
 ---
+[Certified Kubernetes Administrator](https://www.credly.com/badges/b875cc25-62b8-4ddc-a8fc-7db52ea59cea)
+
 [AWS Certified Cloud Practitioner](https://www.credly.com/badges/9484e3ec-e75b-4e7c-b245-c79251ec933f)
 
 [GitOps certified for Argo - GitOps Fundamentals (2022)](/resources/certifications/certificate-gitops-fundamentals-2022-6197cb3b2fbcec4da328aab2.pdf)
