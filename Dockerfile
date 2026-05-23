@@ -6,7 +6,7 @@ WORKDIR /app
 RUN hugo build
 
 
-FROM busybox:1.36
+FROM busybox:1.38
 
 LABEL org.opencontainers.image.source="https://github.com/thomasstxyz/thomasst.xyz"
 
