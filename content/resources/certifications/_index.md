@@ -1,6 +1,8 @@
 ---
 title: 'Certifications'
 ---
+[Kubestronaut](https://www.credly.com/badges/b4e7551c-5e25-4567-9844-6019fc028baf)
+
 [Certified Kubernetes Administrator](https://www.credly.com/badges/b875cc25-62b8-4ddc-a8fc-7db52ea59cea)
 
 [AWS Certified Cloud Practitioner](https://www.credly.com/badges/9484e3ec-e75b-4e7c-b245-c79251ec933f)
