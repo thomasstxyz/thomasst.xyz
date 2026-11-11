@@ -3,6 +3,9 @@ title: 'Certifications'
 ---
 [Kubestronaut](https://www.credly.com/badges/b4e7551c-5e25-4567-9844-6019fc028baf)
 
+[CKS: Certified Kubernetes Security Specialist](https://www.credly.com/badges/f43ae697-897b-4eca-bd98-795f0da2389c)
+
+
 [Certified Kubernetes Administrator](https://www.credly.com/badges/b875cc25-62b8-4ddc-a8fc-7db52ea59cea)
 
 [AWS Certified Cloud Practitioner](https://www.credly.com/badges/9484e3ec-e75b-4e7c-b245-c79251ec933f)
