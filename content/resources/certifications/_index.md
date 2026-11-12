@@ -1,6 +1,8 @@
 ---
 title: 'Certifications'
 ---
+[CKA: Certified Kubernetes Administrator (2026)](https://www.credly.com/badges/aa35c819-af17-4439-b8f8-ce371caad89d)
+
 [Kubestronaut (2025)](https://www.credly.com/badges/b4e7551c-5e25-4567-9844-6019fc028baf)
 
 [AWS Certified Solutions Architect – Professional (2025)](https://www.credly.com/badges/7be7dd95-848a-4248-9d41-24f2c9878af2)
@@ -17,7 +19,7 @@ title: 'Certifications'
 
 [HashiCorp Certified: Terraform Associate (003) (2024)](https://www.credly.com/badges/dc2bf3b9-ea8b-4b75-b3da-7479758db65d)
 
-[CKA: Certified Kubernetes Administrator (2023)](https://www.credly.com/badges/b875cc25-62b8-4ddc-a8fc-7db52ea59cea)
+[CKA: Certified Kubernetes Administrator (2023)](/resources/certifications/CKA-cert-thomas-stadler-febeb8db-39fe-429c-9ccf-0c07b93b3c00-certificate.pdf)
 
 [AWS Certified Cloud Practitioner (2023)](https://www.credly.com/badges/a83e08ad-ce20-4589-b88e-22f77723e747)
 
